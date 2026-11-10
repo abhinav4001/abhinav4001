@@ -145,8 +145,31 @@
 </div>
 ```
 
+## 04 / The toolbox
+
+**🧠 Languages**
+
+<img src="https://skillicons.dev/icons?i=py,c,java,js,html,css,r&theme=dark" />
+
+**🌐 Frameworks & Libraries**
+
+<img src="https://skillicons.dev/icons?i=react,flask,django,nodejs,tailwind,bootstrap&theme=dark" />
+
+<em>✏️ The tools you reach for, in a sentence.</em>
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+
+**🗄️ Databases & DevOps**
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,git,linux,docker,vscode&theme=dark" />
+
 <details>
-<summary>04 / The daily building blocks</summary>
+<summary>🫩 My Contributions</summary>
 
 <img src="./.github/assets/heatmap.svg" alt="Contribution calendar" width="100%" />
 
