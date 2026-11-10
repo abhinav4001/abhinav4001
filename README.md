@@ -2,7 +2,7 @@
 
 ## 01 / The skyline
 
-<img src="https://www.gitskins.com/api/section/city?username=abhinav4001&amp;theme=retro" alt="Contribution city" width="100%" />
+<img src="./.github/assets/city.svg" alt="Contribution city" width="100%" />
 
 ## 02 / Project district
 
@@ -15,7 +15,7 @@
 <details>
 <summary>04 / The daily building blocks</summary>
 
-<img src="https://www.gitskins.com/api/section/heatmap?username=abhinav4001&amp;theme=retro" alt="Contribution calendar" width="100%" />
+<img src="./.github/assets/heatmap.svg" alt="Contribution calendar" width="100%" />
 
 </details>
 

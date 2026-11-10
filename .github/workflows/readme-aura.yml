@@ -17,8 +17,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Fetch and recolour contribution images
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: node scripts/fetch-gitskins.mjs
+
       - name: Generate README
         uses: collectioneur/readme-aura@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           fonts_dir: fonts
+          github_user: abhinav4001
