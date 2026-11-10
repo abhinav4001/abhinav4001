@@ -167,36 +167,48 @@
 </div>
 ```
 
-```aura width=150 height=40 link="https://github.com/abhinav4001" inline align=center
+```aura width=148 height=40 link="https://github.com/abhinav4001" inline align=center
 <div style={{
-  display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:8,
-  width:'100%', height:'100%', boxSizing:'border-box',
-  background:'#131316', border:'1px solid #35271B', borderRadius:20
+  width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center'
 }}>
-  <img src="https://cdn.simpleicons.org/github/FF6A00" width={16} height={16} />
-  <span style={{ display:'flex', fontFamily:'SpaceGroteskMedium', fontSize:12.5, color:'#F4F4F5', letterSpacing:'0.1px' }}>abhinav4001</span>
+  <div style={{
+    display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:7,
+    width:136, height:40, boxSizing:'border-box',
+    background:'#131316', border:'1px solid #35271B', borderRadius:20
+  }}>
+    <img src="https://cdn.simpleicons.org/github/FF6A00" width={15} height={15} />
+    <span style={{ display:'flex', fontFamily:'SpaceGroteskMedium', fontSize:12, color:'#F4F4F5', letterSpacing:'0.1px' }}>abhinav4001</span>
+  </div>
 </div>
 ```
 
-```aura width=150 height=40 link="https://github.com/abhinav4001/PITWALL" inline align=center
+```aura width=148 height=40 link="https://github.com/abhinav4001/PITWALL" inline align=center
 <div style={{
-  display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:8,
-  width:'100%', height:'100%', boxSizing:'border-box',
-  background:'#131316', border:'1px solid #35271B', borderRadius:20
+  width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center'
 }}>
-  <img src="https://cdn.simpleicons.org/f1/FF6A00" width={16} height={16} />
-  <span style={{ display:'flex', fontFamily:'SpaceGroteskMedium', fontSize:12.5, color:'#F4F4F5', letterSpacing:'0.1px' }}>PITWALL</span>
+  <div style={{
+    display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:7,
+    width:136, height:40, boxSizing:'border-box',
+    background:'#131316', border:'1px solid #35271B', borderRadius:20
+  }}>
+    <img src="https://cdn.simpleicons.org/f1/FF6A00" width={15} height={15} />
+    <span style={{ display:'flex', fontFamily:'SpaceGroteskMedium', fontSize:12, color:'#F4F4F5', letterSpacing:'0.1px' }}>PITWALL</span>
+  </div>
 </div>
 ```
 
-```aura width=136 height=40 link="https://overcomplicator.vercel.app" inline align=center
+```aura width=148 height=40 link="https://overcomplicator.vercel.app" inline align=center
 <div style={{
-  display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:8,
-  width:'100%', height:'100%', boxSizing:'border-box',
-  background:'#131316', border:'1px solid #35271B', borderRadius:20
+  width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center'
 }}>
-  <img src="https://cdn.simpleicons.org/vercel/FF6A00" width={16} height={16} />
-  <span style={{ display:'flex', fontFamily:'SpaceGroteskMedium', fontSize:12.5, color:'#F4F4F5', letterSpacing:'0.1px' }}>Live site</span>
+  <div style={{
+    display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:7,
+    width:136, height:40, boxSizing:'border-box',
+    background:'#131316', border:'1px solid #35271B', borderRadius:20
+  }}>
+    <img src="https://cdn.simpleicons.org/vercel/FF6A00" width={15} height={15} />
+    <span style={{ display:'flex', fontFamily:'SpaceGroteskMedium', fontSize:12, color:'#F4F4F5', letterSpacing:'0.1px' }}>Live site</span>
+  </div>
 </div>
 ```
 
