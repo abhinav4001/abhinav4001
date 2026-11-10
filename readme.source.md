@@ -145,7 +145,7 @@
 </div>
 ```
 
-## 04 / The toolbox
+<h2>04 / The toolbox</h2>
 
 **🧠 Languages**
 
@@ -163,10 +163,13 @@
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=opencv&theme=dark" />
 
 **🗄️ Databases & DevOps**
 
 <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,git,linux,docker,vscode&theme=dark" />
+
+<h2 align="center">🫩 My Contributions</h2>
 
 <details>
 <summary>🫩 My Contributions</summary>
