@@ -99,12 +99,7 @@ function remap(token) {
 
 const COLOR_RE = /#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b|\brgba?\([^)]*\)/g;
 
-/** Custom "pro preview"-style overlay, themed to the graphite + ember palette. */
-function proOverlay(title, subtitle) {
-  return `<g aria-label="${title}" pointer-events="none"><rect x="0" y="0" width="860" height="230" fill="#050506" opacity=".58"/><g transform="translate(430.0 115.0) scale(1.000) rotate(-6)"><rect x="-290" y="-44" width="580" height="88" rx="16" fill="#131316" stroke="#26262A" stroke-width="2"/><text x="0" y="-6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif" font-size="30" font-weight="800" fill="#F4F4F5" text-anchor="middle" letter-spacing="-.01em">${title}</text><text x="0" y="24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif" font-size="16" font-weight="600" fill="#FF6A00" text-anchor="middle">${subtitle}</text></g></g>`;
-}
-
-function transform(svg, overlay = null) {
+function transform(svg) {
   // Drop the baked-in watermark text node.
   let out = svg.replace(/<text\b[^>]*>[^<]*gitskins\.com[^<]*<\/text>/gi, "");
 
@@ -114,11 +109,11 @@ function transform(svg, overlay = null) {
     return cache.get(token);
   });
 
-  // Swap the gitskins "Pro preview" lock-screen overlay for our own card.
+  // Remove the gitskins "Pro preview" overlay group entirely.
   const proStart = out.indexOf('<g aria-label="Pro preview');
-  if (proStart >= 0 && overlay) {
+  if (proStart >= 0) {
     const proEnd = out.indexOf("</svg>");
-    out = out.slice(0, proStart) + overlay + out.slice(proEnd);
+    out = out.slice(0, proStart) + out.slice(proEnd);
   }
   return out;
 }
@@ -133,10 +128,7 @@ for (const section of SECTIONS) {
   const svg = await res.text();
   if (!svg.includes("<svg")) throw new Error(`${section}: response is not an SVG`);
 
-  const themed = transform(svg, proOverlay(
-    section === "city" ? "The skyline awaits" : "The heatmap smolders",
-    section === "city" ? "Contribute in graphite and ember" : "Every contribution is an ember",
-  ));
+  const themed = transform(svg);
   const file = path.join(OUT_DIR, `${section}.svg`);
   await fs.writeFile(file, themed, "utf8");
 
