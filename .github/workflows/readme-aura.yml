@@ -3,7 +3,13 @@ name: Generate README
 on:
   push:
     branches: [main]
-    paths: ['readme.source.md']
+    paths:
+      - 'readme.source.md'
+      - 'scripts/fetch-gitskins.mjs'
+      - '.github/assets/city.svg'
+      - '.github/assets/heatmap.svg'
+      - '.github/assets/readme-aura-component-*.svg'
+      - 'fonts/**'
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
